@@ -1,0 +1,55 @@
+body{
+    background-color: lightblue;    
+    }
+header {
+    height: 150px;
+    color: rgb(68, 0, 255);
+    background-color: rgb(238, 175, 219);
+}
+
+.header-name {
+    float: left;
+    padding: 3px;
+    font-size: 50px;
+    color: navy;
+    text-decoration:underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.header-list li {
+    list-style: none;
+    float: right;
+    padding: 30.5px 30px;
+
+}
+
+.main {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6c5ce7;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color:#a29bfe;
+}
